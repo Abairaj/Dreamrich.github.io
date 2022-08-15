@@ -8,7 +8,7 @@ $to = "abairajpoinachi@gmail.com";
 $subject = "Mail From website";
 $txt ="Name = ". $name . "\r\n Mobile number=".$number. "\r\n Email = " . $email . "\r\n Message =" . $message;
 
-$headers = "From: arkclickscm@gmail.com" . "\r\n" .
+$headers = "From:https://abairaj.github.io/dreamrich.github.io/" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
