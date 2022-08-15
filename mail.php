@@ -12,7 +12,7 @@ $message        = $_POST['message'];
 
 $headers    = "Content-Type: text/plain; charset=iso-8859-1\n";
 
-$headers    = "From: $name <$email>\n";
+$headers    = "From: $email\n";
 
 $recipient  = "abairajpoinachi@gmail.com";
 
